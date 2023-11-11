@@ -3,6 +3,7 @@ import os
 import streamlit as st
 
 from simple_chatgpt_client import SimpleClient
+from chatgpt_assistant_client import AssistantClient
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
