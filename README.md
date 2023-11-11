@@ -6,7 +6,7 @@ Simple ElasticSearch query builder powered by ChatGPT. Just specify fields you h
 Add `OPENAI_API_KEY` to your .env file before run
 
 ```bash
-streamlit run main.py
+streamlit run src/main.py
 ```
 
 ### example
