@@ -13,7 +13,7 @@ class SimpleClient:
                 },
                 {
                     "role": "user",
-                    "content": f"with the doc fields {layout}, {query}"
+                    "content": f"with the doc fields {layout}, search all docs whose {query}"
                 }
             ],
             model="gpt-3.5-turbo"
